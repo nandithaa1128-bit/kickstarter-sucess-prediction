@@ -1,0 +1,4 @@
+Metric,Logistic Regression,Random Forest
+Accuracy,61.22,67.79
+Successful Project F1 Score,25.0,50.0
+Successful Project Recall,16.0,41.0

@@ -1,0 +1,31 @@
+{
+    "model": "CatBoostClassifier",
+    "parameters": {
+        "iterations": 700,
+        "depth": 6,
+        "learning_rate": 0.08,
+        "l2_leaf_reg": 10,
+        "class_weights": [
+            1,
+            1.2
+        ],
+        "random_seed": 42
+    },
+    "features": 219,
+    "decision_threshold": 0.38,
+    "validation_metrics": {
+        "accuracy": 0.7035,
+        "precision": 0.6314,
+        "recall": 0.6387,
+        "f1": 0.635,
+        "roc_auc": 0.7658
+    },
+    "test_metrics": {
+        "accuracy": 0.6628627421421572,
+        "precision": 0.5562615967262283,
+        "recall": 0.816878802582957,
+        "f1": 0.6618380863096138,
+        "roc_auc": 0.7652588827704322
+    },
+    "test_samples": 66335
+}

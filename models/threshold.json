@@ -1,0 +1,5 @@
+{
+    "threshold": 0.38,
+    "selection_metric": "F1",
+    "validation_best_f1": 0.6608
+}
